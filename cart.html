@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cart</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../cssfile/cart.css">
+	<link rel="stylesheet" href="../cssfile/header.css">
+	<!-- <link rel="stylesheet" href="index.css"> -->
+	<script type="text/javascript"
+	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+</head>
+<body>
+	<header class="shadow-sm mb-1 mb-lg-5 bg-white rounded sticky" id="body">
+		<div class="menu-header menu-header-font bg-dark d-none d-lg-block">
+			<div class="container">
+				<div class="row p-0">
+					<div class="col-6"></div>
+					<div class="col-12 col-lg-6 p-0">	
+						<nav class="navbar navbar-expand-lg navbar-light p-0">
+						  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon color-white"></span>
+						  </button>
+						  <div class="collapse navbar-collapse 	justify-content-end" id="navbarSupportedContent">
+						    <ul class="navbar-nav mt-3 mt-lg-0">
+						      <li class="nav-item active mr-2">
+						        <a class="nav-link text-white" href="#"><i class="fas fa-heart mr-2"></i>Wishlist <span class="sr-only">(current)</span></a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <a class="nav-link text-white" href="#"><i class="fas fa-compass mr-2"></i>Compare</a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <a class="nav-link text-white" href="#">
+						          <i class="fas fa-user-circle mr-2"></i>My account
+						        </a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <span style="cursor: pointer;" class="nav-link text-white"  ><i class="fas fa-sign-in-alt mr-2"></i>Login</span>
+						      </li>
+						    </ul>
+						    
+						    <form class="form-inline my-2 my-lg-0 d-block d-lg-none">
+						      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>	
+						    </form>
+						  </div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-content mt-0 pt-2 st">
+			<div class="container">
+				<div class="brach-content position-relative form-responsive mb-2 mb-lg-5">
+					<div class="row">
+						<div class="col-lg-4 d-none d-lg-block"></div>
+						<div class="col-6 col-lg-4 d-flex justify-content-center pr-2">
+							<img height="55" src="./design/brach.png" alt="">
+						</div>
+						<div class="col-4 d-lg-flex justify-content-end align-items-center d-none d-lg-block">
+							<form class="form-inline my-2 my-lg-0 d-none d-lg-block form-search">
+						      <input class="rounded-pill form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						      <button class="btn btn-outline-success rounded-pill my-0 my-sm-0" type="submit">Search</button>
+						    </form>
+						</div>
+						<div class="col-12 d-block d-lg-none position-absolute" style="left: 0">
+							<nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-end">
+							  <button class="navbar-toggler bg-light click-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <i class="fas fa-bars" id="button"></i>
+							  </button>
+							  <div class="collapse navbar-collapse 	justify-content-center menu-hidden" id="navbarSupportedContent">
+							    <ul class="navbar-nav mt-3 mt-lg-0">
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="index.html"><i class="fas fa-home mr-2"></i> home <span class="sr-only">(current)</span></a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-users mr-2"></i>about us</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-blog mr-2"></i>blog</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-id-card-alt mr-2"></i>contac</a>
+							      </li>
+							      <li class="nav-item">
+							      	<a class="nav-link text-uppercase" href="file:///C:/Users/Laptop88/Desktop/Web-book/login.html"><i class="fas fa-sign-in-alt mr-2"></i>login</a>
+							      </li>
+							    </ul>
+							    <form class="form-inline my-2 my-lg-0 d-block d-lg-none">
+							      <input id="search-form" class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+							      <button style="width: 70px !important;" id="search-buttom" class="btn btn-outline-success my-sm-0" type="submit">Search</button>
+							    </form>
+							  </div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="common-sticky shadow" id="menu-fixed">
+				<div class="container d-none d-md-block ">
+					<div class="row">
+						<div class="col-4 col-lg-4 d-flex justify-content-start pr-2">
+							<img height="55" src="./design/brach.png" alt="">
+						</div>
+						<div class="col-8 d-flex justify-content-end align-items-center">
+							  <li class="d-inline nav-item position-relative mr-3 active">
+							    <a class="nav-link text-uppercase text-bold pb-1 align-middle" href="index.html">home<i class="ml-2 fas fa-sort-down"></i></a>
+							    <div class="list-group sub-menu">
+								  <a href="#" class="list-group-item list-group-item-action">
+								    Cras justo odio
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+								  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+								  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+								  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+								</div>
+							  </li>
+							  <li class="d-inline nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out align-middle" href="#">about us <i class="ml-2 fas fa-sort-down"></i></a>
+							    <div class="list-group sub-menu">
+								  <a href="#" class="list-group-item list-group-item-action">
+								    Cras justo odio
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+								  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+								  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+								  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+								</div>
+							  </li> 
+							  <li class="d-inline nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">blog</a>
+							  </li>
+							  <li class="d-inline nav-item position-relative">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">contact</a>
+							  </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-content d-none d-lg-block mt-3 shadow">
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<ul class="nav">
+							  <li class="nav-item position-relative mr-3 active pb-1">
+							    <a class="nav-link text-uppercase text-bold pb-2 bottom-out" href="index.html">home</a>
+							  </li>
+							  <li class="nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">about us</a>
+							  </li> 
+							  <li class="nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">blog</a>
+							  </li>
+							  <li class="nav-item position-relative">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">contact</a>
+							  </li>
+							</ul>
+						</div>
+						<div class="col-6 d-flex justify-content-end">
+							<ul class="nav">
+								<li class="nav-item mr-2 position-relative">
+									<a class="nav-link text-uppercase pb-1" href="my-notification.html"><i class="bell-cart fas fa-bell mr-2"></i>notification</a>
+								</li>
+								<li class="nav-item position-relative">
+									<a class="nav-link pb-1" href="cart.html"><i class="bell-cart fas fa-shopping-cart"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+    <div class="cart-product">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Giỏ hàng</li>
+				</ol>
+			</nav>
+            <div class="cart-content">
+                <div class="title py-3">
+                    <h3 class="border-bottom">Giỏ hàng</h3>
+				</div>
+				<div class="row">
+					<div class="col-9 pr-0">
+						<div class="product-in-cart">
+							<table class="m-auto w-100">
+								<tr class="bg-light border">
+									<th>Ảnh sản phẩm</th>
+									<th class="name-product">Tên sản phẩm</th>
+									<th>Giá bán</th>
+									<th>Số lượng</th>
+									<th>Thành tiền</th>
+									<th>Xoá</th>
+								</tr>
+								<tr class="border">
+									<td class="d-flex justify-content-center align-items-center my-3">
+										<img width="80px" src="./design/book1.jpg" alt="">
+									</td>
+									<td class="text-center">
+										<span>Lời hứa về một cây bút chì</span>
+									</td>
+									<td class="text-center" id="price-one">46000</td>
+									<td class="amount-field text-center">
+										<button class="button-amount" onclick="valueUp()"><i class="fas fa-plus"></i></button>
+										<input type="text" size="2" maxlength="2" id="value-amount">
+										<button class="button-amount" onclick="valueDown()"><i class="fas fa-minus"></i></button>
+									</td>
+									<td class="text-center" id="price"></td>
+									<td class="text-center">
+										<button class="trash-button">
+											 <i class="far fa-trash-alt"></i>
+										</button>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="infor-cart">
+							<div class="voucher border py-1 pl-2">
+								<span>Mã giảm giá</span><br>
+								<a href="#"><i class="fas fa-ticket-alt"></i><span class="ml-2">mã giảm giá</span></a>
+							</div>
+							<div class="price-info mt-3">
+								<ul class="list-group">
+									<li class="list-group-item">
+										<span>Tạm tính</span><span class="ml-5" id="price-total">0</span>
+									</li>
+									<li class="list-group-item">
+										<span>Tổng tiền</span><span class="ml-5" id="price-total-vat">0</span>
+									</li>	
+								</ul>
+							</div>
+							<div class="payment my-1 d-flex flex-column">
+								<button class="btn btn-outline-danger w-100">Tiến hành thanh toán</button>
+								<button class="btn btn-outline-warning w-100">Tiếp tục mua sắm</button>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <div style="height: 300px;" class="footer bg-dark py-5 mt-5">
+		<div class="container text-center">
+			<p class="text-white">Suspendisse in auctor augue. Cras fermentum est ac fermentum tempor. Etiam vel magna volutpat, posuere eros</p>
+		</div>
+		<div class="way-pay mt-2">
+			<div class="row">
+				<div class="col-4"></div>
+				<div onclick="" class="col-4 d-flex justify-content-center align-items-center mt-4">
+					<img src="./design/payment.png" alt="">
+				</div>
+				<div class="col-4"></div>
+			</div>
+		</div>
+		<div class="content text-center mt-5">
+			<p class="text-white">Copyright © 2020 Bookself. All Right Reserved.</p>
+			<p class="text-white">Design By Xuanhiep</p>
+		</div>
+	</div>
+	<a href="#" class="crunchify-top">↑</a>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+	<script src="../jsfile/cart.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>

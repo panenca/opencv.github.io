@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../cssfile/contact.css">
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+</head>
+<body>
+	<div class="contact-content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 bg-dark">
+					<div class="row">
+						<div class="col-12 d-flex justify-content-center">
+							<img class="mt-3" height="60" src="./design/white.png" alt="">
+						</div>
+						<div style="height:100%"class="col-12 ml-5 mt-5 ">
+							<ul class="nav flex-column">
+							  <li class="nav-item text-white">
+							    <span style="font-size: 17px">Email:</span><br>
+							    <span class="ml-3">xuanhiepdt1@gmail.com</span>
+							  </li>
+							  <li class="nav-item text-white mt-5">
+							    <span style="font-size: 17px">Phone:</span><br>
+							    <span class="ml-3">0962195530</span>						    
+							  </li>
+							  <li class="nav-item text-white mt-5">
+							    <span style="font-size: 17px">Fax:</span><br>
+							    <span class="ml-3">+00.000000000000</span>	
+							  </li>
+							  <li class="nav-item text-white mt-5">
+							    <span style="font-size: 17px">Instagram:</span><br>
+							    <span class="ml-3">xuanhiepdt1</span>
+							  </li>
+							  <li class="nav-item text-white mt-5">
+							    <span style="font-size: 17px">Facebook:</span><br>
+							    <a href="https://www.facebook.com/error404.NxH/" class="ml-3 text-white">Xuan Hiep</a>
+							  </li>
+							  <li class="nav-item text-white mt-5">
+							    <span style="font-size: 17px">Address:</span><br>
+							    <span class="ml-3">ngo 156, tan trieu, thanh tri, Hanoi</span>
+							  </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-1 bg-light"></div>
+				<div class="col-7 bg-light">
+					<form action="" class="mt-5 py-5">
+						<div class="row">
+							<div class="col-5">
+								<h1>Contact form</h1>
+							</div>
+							<div class="col-7">
+								<div class="alert alert-primary" role="alert">
+								 ${message }
+								 </div>
+							</div>
+						</div>
+						<div class="input-group mt-5">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text">First and last name</span>
+						  </div>
+						  <input type="text" aria-label="First name" class="form-control">
+						  <input type="text" aria-label="Last name" class="form-control">
+						</div>
+						<div class="input-group mt-5">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text">Email</span>
+						  </div>
+						  <input type="text" aria-label="First name" class="form-control">
+						</div>
+						<div class="input-group mt-5">
+						  <div class="input-group-prepend">
+						    <span class="input-group-text">Phone number</span>
+						  </div>
+						  <input type="text" aria-label="First name" class="form-control">
+						</div>
+						<div class="input-group mt-5">
+						 <div class="input-group-prepend">
+						    <span class="input-group-text">Phone number</span>
+						  </div>
+						  <input type="text" aria-label="First name" class="form-control">
+						</div>
+						<div class="row">
+							<div class="col-6 mt-1">
+								<div style="width: 100%" class="input-group mt-5">
+								 <div class="input-group-prepend">
+								    <span class="input-group-text">Birthday</span>
+								  </div>
+								  <input style="width: 286px" type="date" id="start" name="trip-start"
+							       value="year-month-day"
+							       min="1970-01-01" max="2008-12-31" class="form-control">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="input-group mt-5">
+								  <div style="height: 32px" class="input-group-prepend mt-1">
+								    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+								  </div>
+								  <select class="custom-select mt-1" id="inputGroupSelect01">
+								    <option selected>Choose...</option>
+								    <option value="1">Male</option>
+								    <option value="2">Female</option>
+								    <option value="3">Another</option>
+								  </select>
+								</div>
+							</div>
+						</div>
+						<div class="form-group mt-5">
+						    <label for="exampleFormControlTextarea1">Comment</label>
+						    <textarea style="height: 130px" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						 </div>
+						 <button style="width: 200px; height: 50px;" type="submit" class="btn btn-primary mt-3">Submit</button>
+					</form>
+				</div>
+				<div class="col-1 bg-light"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</body>
+</html>

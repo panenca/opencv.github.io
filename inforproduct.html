@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>information product</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../cssfile/inforproduct.css">
+	<link rel="stylesheet" href="../cssfile/header.css">
+	<!-- <link rel="stylesheet" href="index.css"> -->
+	<script type="text/javascript"
+	src="http://maps.googleapis.com/maps/api/js?sensor=false&language=vi"></script>
+</head>
+<body>
+	<header class="shadow-sm mb-1 mb-lg-5 bg-white rounded sticky" id="body">
+		<div class="menu-header menu-header-font bg-dark d-none d-lg-block">
+			<div class="container">
+				<div class="row p-0">
+					<div class="col-6"></div>
+					<div class="col-12 col-lg-6 p-0">	
+						<nav class="navbar navbar-expand-lg navbar-light p-0">
+						  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon color-white"></span>
+						  </button>
+						  <div class="collapse navbar-collapse 	justify-content-end" id="navbarSupportedContent">
+						    <ul class="navbar-nav mt-3 mt-lg-0">
+						      <li class="nav-item active mr-2">
+						        <a class="nav-link text-white" href="#"><i class="fas fa-heart mr-2"></i>Wishlist <span class="sr-only">(current)</span></a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <a class="nav-link text-white" href="#"><i class="fas fa-compass mr-2"></i>Compare</a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <a class="nav-link text-white" href="#">
+						          <i class="fas fa-user-circle mr-2"></i>My account
+						        </a>
+						      </li>
+						      <li class="nav-item mr-2">
+						        <span style="cursor: pointer;" class="nav-link text-white"  ><i class="fas fa-sign-in-alt mr-2"></i>Login</span>
+						      </li>
+						    </ul>
+						    
+						    <form class="form-inline my-2 my-lg-0 d-block d-lg-none">
+						      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>	
+						    </form>
+						  </div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-content mt-0 pt-2 st">
+			<div class="container">
+				<div class="brach-content position-relative form-responsive mb-2 mb-lg-5">
+					<div class="row">
+						<div class="col-lg-4 d-none d-lg-block"></div>
+						<div class="col-6 col-lg-4 d-flex justify-content-center pr-2">
+							<img height="55" src="./design/brach.png" alt="">
+						</div>
+						<div class="col-4 d-lg-flex justify-content-end align-items-center d-none d-lg-block">
+							<form class="form-inline my-2 my-lg-0 d-none d-lg-block form-search">
+						      <input class="rounded-pill form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						      <button class="btn btn-outline-success rounded-pill my-0 my-sm-0" type="submit">Search</button>
+						    </form>
+						</div>
+						<div class="col-12 d-block d-lg-none position-absolute" style="left: 0">
+							<nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-end">
+							  <button class="navbar-toggler bg-light click-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <i class="fas fa-bars" id="button"></i>
+							  </button>
+							  <div class="collapse navbar-collapse 	justify-content-center menu-hidden" id="navbarSupportedContent">
+							    <ul class="navbar-nav mt-3 mt-lg-0">
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="index.html"><i class="fas fa-home mr-2"></i> home <span class="sr-only">(current)</span></a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-users mr-2"></i>about us</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-blog mr-2"></i>blog</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link text-uppercase" href="#"><i class="fas fa-id-card-alt mr-2"></i>contac</a>
+							      </li>
+							      <li class="nav-item">
+							      	<a class="nav-link text-uppercase" href="file:///C:/Users/Laptop88/Desktop/Web-book/login.html"><i class="fas fa-sign-in-alt mr-2"></i>login</a>
+							      </li>
+							    </ul>
+							    <form class="form-inline my-2 my-lg-0 d-block d-lg-none">
+							      <input id="search-form" class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+							      <button style="width: 70px !important;" id="search-buttom" class="btn btn-outline-success my-sm-0" type="submit">Search</button>
+							    </form>
+							  </div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="common-sticky shadow" id="menu-fixed">
+				<div class="container d-none d-md-block ">
+					<div class="row">
+						<div class="col-4 col-lg-4 d-flex justify-content-start pr-2">
+							<img height="55" src="./design/brach.png" alt="">
+						</div>
+						<div class="col-8 d-flex justify-content-end align-items-center">
+							  <li class="d-inline nav-item position-relative mr-3 active">
+							    <a class="nav-link text-uppercase text-bold pb-1 align-middle" href="index.html">home<i class="ml-2 fas fa-sort-down"></i></a>
+							    <div class="list-group sub-menu">
+								  <a href="#" class="list-group-item list-group-item-action">
+								    Cras justo odio
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+								  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+								  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+								  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+								</div>
+							  </li>
+							  <li class="d-inline nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out align-middle" href="#">about us <i class="ml-2 fas fa-sort-down"></i></a>
+							    <div class="list-group sub-menu">
+								  <a href="#" class="list-group-item list-group-item-action">
+								    Cras justo odio
+								  </a>
+								  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+								  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+								  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+								  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+								</div>
+							  </li> 
+							  <li class="d-inline nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">blog</a>
+							  </li>
+							  <li class="d-inline nav-item position-relative">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">contact</a>
+							  </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-content d-none d-lg-block mt-3 shadow">
+				<div class="container">
+					<div class="row">
+						<div class="col-6">
+							<ul class="nav">
+							  <li class="nav-item position-relative mr-3 active pb-1">
+							    <a class="nav-link text-uppercase text-bold pb-2 bottom-out" href="index.html">home</a>
+							  </li>
+							  <li class="nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">about us</a>
+							  </li> 
+							  <li class="nav-item position-relative mr-3">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">blog</a>
+							  </li>
+							  <li class="nav-item position-relative">
+							    <a class="nav-link text-uppercase pb-1 bottom-out" href="#">contact</a>
+							  </li>
+							</ul>
+						</div>
+						<div class="col-6 d-flex justify-content-end">
+							<ul class="nav">
+								<li class="nav-item mr-2 position-relative">
+									<a class="nav-link text-uppercase pb-1" href="my-notification.html"><i class="bell-cart fas fa-bell mr-2"></i>notification</a>
+								</li>
+								<li class="nav-item position-relative">
+									<a class="nav-link pb-1" href="cart.html"><i class="bell-cart fas fa-shopping-cart"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="infor-product">
+		<div class="container">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Lời hứa về một cây bút chì</li>
+				</ol>
+			</nav>
+			<div class="row">
+				<div class="col-12 mt-4">
+					<div class="row">
+						<div class="col-6 product-img-main">
+							<div class="product-img" id="product-img">
+								<img class="shadow" id="default-img" width="400" src="./design/book1.jpg" alt="">
+							</div>							
+						</div>
+						<div class="col-6">
+							<h1 class="product-name" itemprop="name">Lời hứa về một cây bút chì</h1>
+							<ul class="list-unstyled mt-3">
+    
+								<li>Nhà xuất bản: <a href="#" class="text-decoration-none text-warning">Kim đồng</a></li>
+								
+								<link itemprop="availability" href="http://schema.org/InStock"> 
+								<li>
+								  <span class="ex-text">In Vietnam</span>
+								</li>
+								<li class="skuvariant">SKU: 
+								  <span class="variant-sku">123</span>
+								</li>
+							  </ul>
+							  <div class="price-box py-3">
+								<span>62.000 </span><span class="ml-1">49.600</span>
+							  </div>
+							  <div class="ratings">
+								<div class="rating-box">
+									<span class="spr-badge" id="spr_badge_1613133152308" data-rating="5.0"><span class="spr-starrating spr-badge-starrating"><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i></span><span class="spr-badge-caption">1    review</span>
+									</span>
+								</div>
+							  </div>
+							  <p class="short-des mt-3">
+								Lời Hứa Về Một Cây Bút Chì Hành trình từ 25 đô-la đến 250 trường học dành cho trẻ em trên toàn cầu và câu chuyện phi thường của một CEO nuôi chí thay đổi thế giới bằng giáo dục Adam Braun bắt đầu làm việc hè tại các quỹ đầu tư khi anh mới mười sáu tuổi nhằm mục tiêu có được một sự nghiệp thành công ở phố Wall . Nhưng...
+							  </p>
+							<div class="box-info-product">
+								<div class="add-to-cart d-flex align-items-center">
+									<div class="pull-left">
+										<div class=" pull-left">
+											<input type="number" title="Số lượng" min="1" value="1" maxlength="12" id="qty" name="quantity" class="input-text qty">
+										</div>
+									</div>
+									<div class="add-buy">
+										<button type="button" class="btn btn-outline-danger ml-4">Thêm vào giỏ hàng</button>
+										<button type="button" class="btn btn-outline-warning ml-4">Mua ngay</button>
+									</div>
+								</div>
+							</div>
+							<div class="add-to-wishlist mt-4">
+								<span><i class="far fa-heart mr-2"></i>add to wishlist</span>
+							</div>
+							<div class="small-img d-flex justify-content-start mt-4">
+								<img id="image-first" class="shadow" src="./design/book1.jpg" alt="">
+								<img id="image-second" class="ml-4 shadow" src="./design/afterbook.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="des-content mt-5">
+				<h3 class=" border-bottom mb-3 py-2">Giới thiệu sách</h3>
+				<div class="book-des">
+					<b>Lời Hứa Về Một Cây Bút Chì</b>
+					<p class="mt-2">Hành trình từ 25 đô-la đến 250 trường học dành cho trẻ em trên toàn cầu và câu chuyện phi thường của một CEO nuôi chí thay đổi thế giới bằng giáo dục.</p>
+					<p>Adam Braun bắt đầu làm việc hè tại các quỹ đầu tư khi anh mới mười sáu tuổi nhằm mục tiêu có được một sự nghiệp thành công ở phố Wall. Nhưng trong một chuyến du lịch, anh đã gặp một cậu bé ăn xin trên đường phố của Ấn Độ. Anh hỏi cậu muốn điều gì nhất trên đời này, thì nhận được câu trả lời đơn giản: "Một cây bút chì." Chính mong ước nhỏ nhoi này đã thôi thúc Adam làm vô số điều đáng kinh ngạc trước khi thành lập ra tổ chức PoP (Bút chì hứa hẹn), một tổ chức mà Braun bắt đầu chỉ vẻn vẹn với 25 đô-la và sau đó xây dựng được hơn 250 trường học trên khắp thế giới.</p>
+					<p>Lời hứa về một cây bút chì tái hiện lại cuộc hành trình của Adam Braun. Mỗi chương giải thích một bước rõ ràng mà mỗi người có thể làm để biến những tham vọng lớn nhất của họ thành hiện thực. Nếu bạn cảm thấy náo nức và sẵn sàng cho quá trình chuyển đổi, nếu bạn đang tìm kiếm định hướng và mục tiêu cuộc đời, cuốn sách này là dành cho bạn. Được dẫn dắt bởi những câu chuyện và các chia sẻ đầy cảm hứng, cuốn sách sẽ cung cấp cho bạn những công cụ để tạo nên một câu chuyện đáng kể trong cuộc sống của chính bạn.
+					</p>
+				</div>
+			</div>
+			<div class="customer-review border-bottom">
+				<h3 class=" border-bottom mb-3 py-2">Đánh giá sản phẩm</h3>
+				<div class="comment-content pb-4 pt-2">
+					<div class="row">
+						<div class="col-12 d-flex justify-content-center pb-4">
+							<button onclick="clickbutton()" id="button_click" class="btn btn-block btn-outline-danger">Đánh giá của bạn</button>
+						</div>
+					</div>
+					<div class="form-review border p-2 mb-4" id="form">
+						<form action="">
+							<h5>Đánh giá của bạn về sản phẩm</h5>
+							<label for="" class="mt-2">Tên</label>
+							<input type="text" class="form-control" placeholder="nhập tên của bạn">
+							<label for="" class="mt-3">Email</label>
+							<input type="email" class="form-control mb-3" placeholder="nhập địa chỉ email">
+							<span>Rating</span>
+							<div class="ratings mt-2">
+								<div class="rating-box">
+									<span class="spr-badge" id="spr_badge_1613133152308" data-rating="5.0"><span class="spr-starrating spr-badge-starrating"><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i></span>
+									</span>
+								</div>
+							  </div>
+							  <label for="" class="mt-3">Nhận xét</label>
+							  <input type="text" class="form-control">
+							  <label for="" class="mt-3">Nội dung</label>
+							  <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+							  <button class="btn btn-block btn-outline-success mt-3">Submit</button>
+						</form>
+					</div>
+					<div class="row">
+						<div class="col-2">	
+							<div style="width: 100px; height: 100px;" class="img-custom align-items-center border d-flex justify-content-center">
+								xuan hiep
+							</div>
+						</div>
+						<div class="col-10">
+							<div class="ratings">
+								<div class="rating-box">
+									<span class="spr-badge" id="spr_badge_1613133152308" data-rating="5.0"><span class="spr-starrating spr-badge-starrating"><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i><i class="far fa-star mr-1"></i></span>
+									</span>
+								</div>
+							  </div>
+							<span class="emotion"><b>Greating writing</b></span><br>
+							<span class="time">sep 21 2020</span>
+							<p class="comment">This book so amazing</p>
+						</div>
+					</div>
+				</div>
+				<div class="realate-product position-relative">
+					<h3 class=" border-bottom mb-3 py-2">Sản phẩm liên quan</h3>
+					<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+						  <div class="carousel-item active" data-interval="10000">
+							<div class="row mt-2 mt-lg-5">
+								<div class="mb-3 mb-lg-0 col-12 col-md-6 col-lg-3 text-center align-items-center position-relative">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book4.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Tôi nói gì khi nói về chạy bộ</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="mb-3 mb-lg-0 col-12 col-md-6 col-lg-3 text-center align-items-center">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book3.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Tuổi trẻ đáng giá bao nhiêu</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="d-none d-md-block col-12 col-md-6 col-lg-3 text-center align-items-center">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book2.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Chiến binh cầu vồng</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="d-none d-md-block col-12 col-md-6 col-lg-3 text-center align-items-center mb-md-4">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book1.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Lời hứa về một cây bút chì</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							</div>
+						  </div>
+						  <div class="carousel-item" data-interval="2000">
+							<div class="row mt-2 mt-lg-5">
+								<div class="mb-3 mb-lg-0 col-12 col-md-6 col-lg-3 text-center align-items-center position-relative">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book4.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Tôi nói gì khi nói về chạy bộ</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="mb-3 mb-lg-0 col-12 col-md-6 col-lg-3 text-center align-items-center">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book3.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Tuổi trẻ đáng giá bao nhiêu</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="d-none d-md-block col-12 col-md-6 col-lg-3 text-center align-items-center">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book2.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Chiến binh cầu vồng</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+								<div class="d-none d-md-block col-12 col-md-6 col-lg-3 text-center align-items-center mb-md-4">
+									<div class="card text-center align-items-center pt-4" style="width: 100%;">
+									<img width="130" height="200" src="./design/book1.jpg" alt="">
+									<div class="card-body pt-1">
+									  <p class="mt-2">Lời hứa về một cây bút chì</p>
+									  <div class="star-ratting mx-auto">					
+										  <ul class="d-flex text-center justify-content-center px-5">
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+											  <li class="d-inline"><a href="#"><i class="fas fa-star"></i></a></li>
+										  </ul>
+									  </div>
+									  <div class="price">
+										  <span>62.000</span>
+										  <span>49.600</span>
+									  </div>
+									  <div class="row mt-3 position-absolute icon-relative">
+										  <div class="col-2"></div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-plus"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-eye"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="far fa-heart"></i></a>
+										  </div>
+										  <div class="col-2 border p-2 text-center icon">
+											  <a href="#"><i class="fas fa-random"></i></a>
+										  </div>
+										  <div class="col-2"></div>
+									  </div>
+									</div>
+								  </div>
+								</div>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="button-control">
+						<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+						<i class="fas fa-arrow-circle-left mr-5"></i>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+						<i class="fas fa-arrow-circle-right ml-5"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="height: 300px;" class="footer bg-dark py-5 mt-5">
+		<div class="container text-center">
+			<p class="text-white">Suspendisse in auctor augue. Cras fermentum est ac fermentum tempor. Etiam vel magna volutpat, posuere eros</p>
+		</div>
+		<div class="way-pay mt-2">
+			<div class="row">
+				<div class="col-4"></div>
+				<div onclick="" class="col-4 d-flex justify-content-center align-items-center mt-4">
+					<img src="./design/payment.png" alt="">
+				</div>
+				<div class="col-4"></div>
+			</div>
+		</div>
+		<div class="content text-center mt-5">
+			<p class="text-white">Copyright © 2020 Bookself. All Right Reserved.</p>
+			<p class="text-white">Design By Xuanhiep</p>
+		</div>
+	</div>
+	<a href="#" class="crunchify-top">↑</a>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+	<script src="../jsfile/inforproduct.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>
